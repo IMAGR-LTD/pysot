@@ -31,7 +31,7 @@ ext_modules = [
 setup(
     name='pysot',
     version='0.0.1',
-    python_requires='>=3.7',
+    python_requires='>=3.8',
     packages=find_packages(),
     data_files=[("configs", find_yaml_files())],
     include_package_data=True,
