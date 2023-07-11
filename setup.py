@@ -35,6 +35,11 @@ setup(
     packages=find_packages(),
     data_files=[("configs", find_yaml_files())],
     include_package_data=True,
+    install_requires=[
+        "yacs",
+        "opencv-python-headless",
+        "numpy"
+    ],
     # ext_modules=cythonize(ext_modules),
     platforms=["linux"],
 )
