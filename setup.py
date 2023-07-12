@@ -15,6 +15,7 @@ setup(
     version='0.0.1',
     python_requires='>=3.8  ',
     packages=find_packages(),
+    package_data={"experiments": ["**/*.yaml"]},
     include_package_data=True,
     install_requires=[
         "yacs",
